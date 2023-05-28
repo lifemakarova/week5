@@ -1,0 +1,72 @@
+.container {
+    display: flex;
+
+
+}
+#logo {
+
+    width: 190px;
+    height: 36px;
+    background: url(.svg);
+    border-radius: 0px;
+    order: 2;
+ align-self: center;
+margin: 30px;
+ 
+}
+.menu {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    order: 1;
+    align-self: flex-start;
+}
+
+
+.flexcontainer{
+    height: 698px;
+    width: 1440px;
+    display: flex;
+    background-image: url(.png);
+    flex-direction: column;
+}
+p {
+    color: white;
+    background-color: #050505;
+    position: absolute;
+    height: 50px;
+    border-radius: 1px 1px 0px 0px;
+    font-family: 'Times New Roman', Times, serif;
+justify-content: flex-end;
+
+}
+h2 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+
+        justify-content: center;
+        align-self: center;
+
+}
+
+.flex1 {
+    align-content: flex-end;
+}
+
+h3 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    border: 1px solid #ffffff;
+    padding: 15px;
+     /* identical to box height, or 100% */
+     align-self: center;
+     width: 125px;
+     height: 20px;
+    
+}
+a {
+    padding: 30px;
+    margin: 10px;
+}
